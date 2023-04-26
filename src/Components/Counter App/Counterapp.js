@@ -12,7 +12,7 @@ const Counterapp = () => {
   }
 
   return (
-    <div>
+    <div className="counter-app">
       <button onClick={handleIncreaseCount}>Increase count</button>
       <p> my count is {count}</p>
       <button onClick={handleDecreaseCount}>Decrease count</button>
