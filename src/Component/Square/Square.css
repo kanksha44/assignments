@@ -1,0 +1,12 @@
+.square {
+  width: 50%;
+  height: 80px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+}
+h5 {
+  font-size: 25px;
+}
