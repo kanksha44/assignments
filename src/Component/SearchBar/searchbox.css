@@ -1,0 +1,42 @@
+.input-wrapper {
+  background-color: #fff;
+  width: 100%;
+  border-radius: 35px;
+  height: 3.5rem;
+  padding: 0 15px;
+  box-shadow: 0px 8px 8px #ddd;
+  display: flex;
+  align-items: center;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  height: 100%;
+  font-size: 1.25rem;
+  width: 100%;
+  margin-left: 5px;
+}
+input:focus {
+  outline: none;
+}
+#mic-icon,
+#search-icon {
+  color: royalblue;
+  font-size: 28px;
+}
+
+ul {
+  z-index: 1;
+  position: absolute;
+  top: 25%;
+  list-style: none;
+  background-color: #fff;
+  left: 31%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0;
+  margin-top: 2px;
+  width: 39%;
+  line-height: 35px;
+  padding-left: 10px;
+}
